@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Repos\\OnealJohn\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo.iOS\\TestPictureDemo.iOS.csproj": {}
+  },
+  "projects": {
+    "D:\\Repos\\OnealJohn\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo.iOS\\TestPictureDemo.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\OnealJohn\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo.iOS\\TestPictureDemo.iOS.csproj",
+        "projectName": "TestPictureDemo.iOS",
+        "projectPath": "D:\\Repos\\OnealJohn\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo.iOS\\TestPictureDemo.iOS.csproj",
+        "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\OnealJohn\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Program Files (x86)\\DevExpress 19.2\\System\\Components\\Packages": {},
+          "D:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "http://nuget.uxdivers.com/grial": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bitframeworks.com/nuget/public/v3/index.json": {},
+          "https://nuget.devexpress.com/BhTUPhfYp6ceyO5rxgryig8g23RMHebH8CpYgJ394NE98lUHhM/api": {},
+          "https://nuget.devexpress.com/FZootNGhKM3t6YkYWlud8VN2VtHlyqsVUfFSjJBMweCOMRXkR5/api": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "D:\\Repos\\OnealJohn\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo.csproj": {
+                "projectPath": "D:\\Repos\\OnealJohn\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "Xamarin.Essentials.Interfaces": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.FFImageLoading.Transformations": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Repos\\OnealJohn\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\OnealJohn\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo.csproj",
+        "projectName": "TestPictureDemo",
+        "projectPath": "D:\\Repos\\OnealJohn\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo.csproj",
+        "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\OnealJohn\\TestPictureDemo\\TestPictureDemo\\TestPictureDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Program Files (x86)\\DevExpress 19.2\\System\\Components\\Packages": {},
+          "D:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "http://nuget.uxdivers.com/grial": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bitframeworks.com/nuget/public/v3/index.json": {},
+          "https://nuget.devexpress.com/BhTUPhfYp6ceyO5rxgryig8g23RMHebH8CpYgJ394NE98lUHhM/api": {},
+          "https://nuget.devexpress.com/FZootNGhKM3t6YkYWlud8VN2VtHlyqsVUfFSjJBMweCOMRXkR5/api": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Xamarin.Essentials.Interfaces": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.FFImageLoading.Transformations": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

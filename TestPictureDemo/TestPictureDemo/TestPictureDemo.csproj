@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="UI\Resources\Fonts\Font5Brands.otf" />
+    <None Remove="UI\Resources\Fonts\Font5Regular.otf" />
+    <None Remove="UI\Resources\Fonts\Font5Solid.otf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Resources\Fonts\Font5Brands.otf" />
+    <EmbeddedResource Include="UI\Resources\Fonts\Font5Regular.otf" />
+    <EmbeddedResource Include="UI\Resources\Fonts\Font5Solid.otf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fody" Version="6.6.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="PropertyChanged.Fody" Version="3.4.0" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials.Interfaces" Version="1.7.0" />
+    <PackageReference Include="Prism.DryIoc.Forms" Version="8.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Components\CardView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\AddPost.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

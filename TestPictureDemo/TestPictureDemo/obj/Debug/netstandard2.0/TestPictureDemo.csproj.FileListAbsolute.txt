@@ -1,0 +1,16 @@
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\bin\Debug\netstandard2.0\TestPictureDemo.deps.json
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\bin\Debug\netstandard2.0\TestPictureDemo.dll
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\bin\Debug\netstandard2.0\TestPictureDemo.pdb
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\obj\Debug\netstandard2.0\TestPictureDemo.csproj.AssemblyReference.cache
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\obj\Debug\netstandard2.0\TestPictureDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\obj\Debug\netstandard2.0\TestPictureDemo.AssemblyInfoInputs.cache
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\obj\Debug\netstandard2.0\TestPictureDemo.AssemblyInfo.cs
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\obj\Debug\netstandard2.0\TestPictureDemo.csproj.CoreCompileInputs.cache
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\obj\Debug\netstandard2.0\TestPictureDemo.csproj.Fody.CopyLocal.cache
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\obj\Debug\netstandard2.0\TestPictureDemo.dll
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\obj\Debug\netstandard2.0\TestPictureDemo.pdb
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\obj\Debug\netstandard2.0\Components\CardView.xaml.g.cs
+D:\Repos\OnealJohn\TestPictureDemo\TestPictureDemo\TestPictureDemo\obj\Debug\netstandard2.0\Views\AddPost.xaml.g.cs

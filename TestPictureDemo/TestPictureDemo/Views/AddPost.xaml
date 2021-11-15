@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             xmlns:CustomControls="clr-namespace:TestPictureDemo.UI.CustomRenders"
+             x:Class="TestPictureDemo.Views.AddPost"
+             Title="Creating Post">
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="Auto,*">
+            <Label Text="New Post" 
+                   Grid.Row="0" 
+                   Padding="10,5" 
+                   FontSize="Large" 
+                   FontAttributes="Bold" 
+                   TextColor="Black" 
+                   VerticalOptions="Center"/>
+            <Button Text="&#xf0c7;" 
+                    Grid.Row="0" 
+                    HorizontalOptions="End" 
+                    FontFamily="FontAwesomeRegular" 
+                    FontSize="20" 
+                    FontAttributes="Bold" 
+                    BackgroundColor="#2196F3" 
+                    Margin="5" 
+                    Padding="0"
+                    TextColor="White" Command="{Binding SavePost}">
+                
+                <Button.Triggers>
+                    <DataTrigger TargetType="Button" Binding="{Binding Source={x:Reference textComentName}, Path=Text.Length}" Value="0">
+                        <Setter Property="IsEnabled" Value="False" />
+                    </DataTrigger>
+                </Button.Triggers>
+            </Button>
+            <CustomControls:TextEntry x:Name="textComentName" Grid.Row="1" BackgroundColor="#EAEDEF" Text="{Binding TextComment}" Placeholder="What's on your mind?"/>
+        </Grid>
+    </ContentPage.Content>
+  
+</ContentPage>

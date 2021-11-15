@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:ffTrans="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             x:Class="TestPictureDemo.Components.CardView">
+    <CollectionView x:Name="cardContainer">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <StackLayout>
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="9" Color="Silver"/>
+                    <Grid RowSpacing="0" ColumnSpacing="0" Padding="20,10" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto">
+       
+                        <StackLayout Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" Orientation="Horizontal">
+                            <ff:CachedImage Source="{Binding UserIcon}" HeightRequest="50" WidthRequest="50" HorizontalOptions="Start">
+                                <ff:CachedImage.Transformations>
+                                    <ffTrans:CircleTransformation />
+                                </ff:CachedImage.Transformations>
+                            </ff:CachedImage>
+
+                            <StackLayout HorizontalOptions="FillAndExpand" Padding="10,0,0,0">
+                                <Label Text="{Binding Name}" FontSize="Small"/>
+                                <Label Text="{Binding Date}" TextColor="Silver" FontSize="Small"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <Label Grid.Row="0" Grid.RowSpan="2" Grid.Column="2" Text="..."  Style="{StaticResource StCommentMore}"/>
+                        <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Text="{Binding Comment}" Margin="0,10"/>
+                        <!-- Comment image-->
+                        <Image Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3"  Source="{Binding PictureComment}" Style="{StaticResource StCommentPicture}"/>
+                        <!-- Reactions-->
+                        <StackLayout Grid.Row="5" Grid.Column="0" Style="{StaticResource StCommentActions}">
+                            <Label Text="&#128588;" IsVisible="{Binding Like}"  />
+                            <Label Text="&#x1f60d;" IsVisible="{Binding Love}"  />
+                            <Label Text="&#128562;" IsVisible="{Binding Funny}" />
+                            <Label Grid.Row="5" Grid.Column="1" Text="{Binding CountReactions}" />
+                        </StackLayout>
+                        <!-- Comment actions & informacion-->
+                        <Label Grid.Row="5" Grid.Column="2" HorizontalOptions="End" Text="{Binding TotalComents}" Margin="0,6"/>
+                        <BoxView Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3" Style="{StaticResource StLine}" />
+
+                        <Button Grid.Row="7" Grid.Column="0" Text="Like" HorizontalOptions="StartAndExpand" Style="{StaticResource StCommentActBtn}" >
+                            <Button.ImageSource>
+                                <FontImageSource Glyph="&#xf164;" FontFamily="FontAwesomeRegular" Color="Black" Size="15"/>
+                            </Button.ImageSource>
+                        </Button>
+                        <Button Grid.Row="7" Grid.Column="1" Text="Comment"  HorizontalOptions="CenterAndExpand"  Style="{StaticResource StCommentActBtn}">
+                            <Button.ImageSource>
+                                <FontImageSource Glyph="&#xf075;" FontFamily="FontAwesomeRegular" Color="Black" Size="15"/>
+                            </Button.ImageSource>
+                        </Button>
+                        <Button Grid.Row="7" Grid.Column="2" Text="Share" HorizontalOptions="EndAndExpand" Style="{StaticResource StCommentActBtn}">
+                            <Button.ImageSource>
+                                <FontImageSource Glyph="&#xf14d;" FontFamily="FontAwesomeRegular" Color="Black" Size="15"/>
+                            </Button.ImageSource>
+                        </Button>
+                    </Grid>
+                </StackLayout>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+      
+</StackLayout>
